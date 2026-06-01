@@ -103,6 +103,7 @@ button {
     padding-top: 50px;
     padding-bottom: 50px;
      border-bottom: 2px  #8c8c8c ;
+     flex-wrap: wrap;
 }
 .logos {
 display: flex;
@@ -121,9 +122,10 @@ display: flex;
 .icons-module {
     display: flex;
     flex-direction: row;
+    gap: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
-    flex-wrap: wrap;
+    
 }
 .map img {
     width: 90%;
@@ -146,7 +148,8 @@ gap: 50px;
 padding-top: 5%;
 }
 .candle li {
-    padding: 5%;
+    padding-bottom: 7%;
+    padding-top: 7%;
 }
 .ball img {
     width: 50%;
